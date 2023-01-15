@@ -209,7 +209,7 @@ $(document).ready(function () {
     $(".loader").fadeOut(500);
   }, 2000);
 
-  $(window).scroll(function () {
+  
     new PureCounter();
-  });
+
 });
