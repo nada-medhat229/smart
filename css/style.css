@@ -682,9 +682,9 @@ nav .button-customer {
 .portfolio-container {
   margin-right: 150px;
 }
-.portfolio-item {
+/* .portfolio-item {
   margin-left: 20px;
-}
+} */
 .portfolio-item .portfolio-wrap {
   transition: 0.3s;
 
@@ -1080,6 +1080,7 @@ nav .button-customer {
 	animation-duration: 1.5s;
 	animation-timing-function: ease-out;
 	animation-iteration-count: infinite;
+  z-index: 555555555;
 }
 
 @keyframes pulse {
@@ -1251,4 +1252,28 @@ nav .button-customer {
     background: #11388f !important;
     color: #fff !important;
   }
+}
+
+@media (max-width:575.98px) {
+  .portfolio-container {
+    margin-right: 25px;
+}
+.portfolio-wrap .portfolio-links a i {
+  font-size: 16px;
+}
+.portfolio-wrap .portfolio-links a {
+
+  width: 30px;
+  height: 30px;
+  
+}
+.portfolio-wrap .portfolio-info h3 {
+  font-size: 16px;
+}
+.post-module .post-content .post-meta .timestamp li img {
+  width: 12px;
+}
+.post-module .post-content .post-meta .timestamp li {
+  font-size: 12px;
+}
 }
