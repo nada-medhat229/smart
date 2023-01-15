@@ -1276,4 +1276,7 @@ nav .button-customer {
 .post-module .post-content .post-meta .timestamp li {
   font-size: 12px;
 }
+.footer .footer-info .logo{
+  width: 120px;
+}
 }
