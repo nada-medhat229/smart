@@ -582,9 +582,6 @@ nav .button-customer {
   overflow: hidden;
 }
 .customer-area {
-  font-size: 18px;
-  background-color: #fff;
-
   padding: 12px 45px;
   display: inline-block;
   border-radius: 25px;
@@ -612,6 +609,14 @@ nav .button-customer {
 .border-button a:hover {
   background-color: #11388f;
   color: #fff;
+  padding: 12px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #012a70c5 0%, #84fab0 51%, #012a70c5 100%);
 }
 .categories-collections {
   padding-bottom: 100px;
@@ -824,6 +829,18 @@ nav .button-customer {
   transition: all 0.3s;
   position: relative;
   overflow: hidden
+  
+}
+.portfolio-buton .nav-link.active {
+   padding: 12px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 25px;
+  background-image: linear-gradient(to right, #012a70c5 0%, #84fab0 51%, #012a70c5 100%);
+
 }
 .portfolio-buton .nav-link.active:after {
   width: 78%;
@@ -1251,6 +1268,9 @@ nav .button-customer {
     margin: auto;
     background: #11388f !important;
     color: #fff !important;
+
+    /* background-image: linear-gradient(to right, #012a70c5 0%, #84fab0 51%, #012a70c5 100%) !important; */
+
   }
 }
 
